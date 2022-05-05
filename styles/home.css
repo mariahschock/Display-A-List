@@ -3,6 +3,7 @@
     width:  250px;
     height: 250px;
     object-fit: cover;
+    border-radius: 25%;
 }
 .cat {
     width: 30%;
@@ -12,6 +13,8 @@
     border: 10px solid black;
     padding: 15px;
     margin: 15px;
+    border-radius: 25%;
+    background-color: blanchedalmond;
 }
 #cats {
     display:flex;
