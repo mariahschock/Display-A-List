@@ -1,5 +1,5 @@
-import { cats } from './cat-data';
-import { renderCat } from './utils';
+import { cats } from './cat-data.js';
+import { renderCat } from './utils.js';
 
 const catListEl = document.getElementById('cats');
 

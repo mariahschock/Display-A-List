@@ -6,10 +6,10 @@ export function renderCat(cat) {
     h1.textContent = cat.name;
 
     const img = document.createElement('img');
-    img.src = cat.img;
+    img.src = cat.image;
 
     const p = document.createElement('p');
-    p.textContent = `${cat.name} is ${cat.age} and likes ${cat.likes}`;
+    p.textContent = `${cat.name} is ${cat.age} year(s) old and likes ${cat.likes}`;
 
     div.append(h1, img, p);
     return div;

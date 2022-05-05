@@ -1,1 +1,19 @@
-/* add home page styles here */
+.cat img {
+    float: left;
+    width:  250px;
+    height: 250px;
+    object-fit: cover;
+}
+.cat {
+    width: 30%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    border: 10px solid black;
+    padding: 15px;
+    margin: 15px;
+}
+#cats {
+    display:flex;
+    flex-direction: row;
+}
