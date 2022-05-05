@@ -17,3 +17,12 @@
     display:flex;
     flex-direction: row;
 }
+p {
+    font-family: fantasy;
+    text-align: center;
+}
+h1 {
+    font-family: fantasy;
+    font-size: 2rem;
+    font-weight: bolder;
+}
