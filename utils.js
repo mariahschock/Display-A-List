@@ -31,3 +31,20 @@ export function renderHikes(hikes) {
     div.append(h1, img, p);
     return div;
 }
+
+export function renderSummer(summerEvents) {
+    const div = document.createElement('div');
+    div.classList.add('summer-events');
+
+    const h1 = document.createElement('h1');
+    h1.textContent = summerEvents.event;
+
+    const img = document.createElement('img');
+    img.src = summerEvents.image;
+
+    const p = document.createElement('p');
+    p.textContent = `${summerEvents.event} takes place ${summerEvents.where} and involves ${summerEvents.involves}`;
+
+    div.append(h1, img, p);
+    return div;
+}
